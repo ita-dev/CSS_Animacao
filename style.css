@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(3, 136, 180);
+    
+}
+.top1 {
+    width: 100px;
+    height: 100px;
+    border-style: groove;
+    position: absolute;
+    left: 270px;
+    top: 20px;
+    animation-name: changeColor;
+    animation-duration: 6s;
+    border-radius: 40px;
+}
+@keyframes changeColor {
+    from {background-color: purple; top: 620px;}
+    to {background-color: white;}
+} 
+.top2 {
+    width: 100px;
+    height: 200px;
+    border-style: groove;
+    position: absolute;
+    left: 414px;
+    top: 20px;
+    animation-name: changeColor2;
+    animation-duration: 6s;  
+    border-radius: 40px;          
+}
+@keyframes changeColor2 {
+    from {background-color: darkblue; top: 520px}
+    to {background-color: white;}
+}
+.top3 {
+    width: 100px;
+    height: 300px;
+    border-style: groove;
+    position: absolute;
+    left: 550px;
+    top: 20px;
+    animation-name: changeColor3;
+    animation-duration: 6s;
+    border-radius: 40px;
+}
+@keyframes changeColor3 {
+    from {background-color: lightblue; top: 420px;}
+    to {background-color: white;}
+}
+.top4 {
+    width: 100px;
+    height: 400px;
+    border-style: groove;
+    position: absolute;
+    left: 688px;
+    top: 20px;
+    animation-name: changeColor4;
+    animation-duration: 6s;
+    border-radius: 40px;
+}
+@keyframes changeColor4 {
+    from {background-color: green; top: 320px;}
+    to {background-color: white;}
+}
+.top5 {
+    width: 100px;
+    height: 500px;
+    border-style: groove;
+    position: absolute;
+    left: 825px;
+    top: 20px;
+    animation-name: changeColor5;
+    animation-duration: 6s;
+    border-radius: 40px;
+}
+@keyframes changeColor5 {
+    from {background-color: yellow; top: 220px;}
+    to {background-color: white;}
+}
+.top6 {
+    width: 100px;
+    height: 600px;
+    border-style: groove;
+    position: absolute;
+    left: 960px;
+    top: 20px;
+    animation-name: changeColor6;
+    animation-duration: 6s;
+    border-radius: 40px;
+}
+@keyframes changeColor6 {
+    from {background-color: orange; top: 120px;}
+    to {background-color: white;}
+}
+.top7 {
+    width: 100px;
+    height: 700px;
+    border-style: groove;
+    position: absolute;
+    left: 1090px;
+    top: 20px;
+    animation-name: changeColor7;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    border-radius: 40px;
+}
+@keyframes changeColor7 {
+    from {background-color: red;}
+    to {background-color: white;}
+}
+.tot {
+    width: 1100px;
+    height: 720px;
+    border: 2px solid black;
+    position: absolute;
+    top: 2px;
+    border-radius: 20px;
+    margin: 10px 140px 10px 140px;
+
+}
+
+/* Engrenagem */
+.ponto {
+    position: relative;
+    top:2px;
+    left: 27px;
+    color: black;
+    
+    
+}
+.square {
+    width: 60px;
+    height: 30px;
+    border: 3px solid black;
+    margin-top: 680px;
+    margin-left: 170px;
+    animation-name: squar;
+    animation-direction: normal;
+    animation-duration: 6s;
+    border-radius: 2px;
+}
+@keyframes squar {
+    from {
+        transform: rotate(500grad);
+    }
+}
